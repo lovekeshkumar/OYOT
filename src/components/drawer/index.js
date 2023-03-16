@@ -8,8 +8,7 @@ import Checkbox from "@mui/material/Checkbox";
 import { Typography, TextField, Rating } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import IconButton from "@mui/material/IconButton";
-import MenuItem from "@mui/material/MenuItem";
-import Select from "@mui/material/Select";
+
 
 const drawerWidth = 240;
 const headerHeight = 1;
