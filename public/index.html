@@ -2,6 +2,29 @@
 <html lang="en">
 
 <head>
+ 
+ 
+ 
+ window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+    "component": {
+        "accordion-1": {
+            "title": "Step by step",
+            "shownItems": [
+                "component.accordion-1-item-1"
+            ]
+        },
+        "accordion-1-item-1": {
+            "title": "Step One",
+            "parent": "component.accordion-1"
+        },
+        "accordion-1-item-2": {
+            "title": "Step Two",
+            "parent": "component.accordion-1"
+        }
+    }
+});
+ 
  <script src="https://assets.adobedtm.com/e9875dd51dbe/ff9a451f30ef/launch-211d711a399a.min.js" async></script>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
